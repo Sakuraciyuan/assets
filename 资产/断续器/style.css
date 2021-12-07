@@ -598,3 +598,151 @@ a.comment-reply-link_a {color:#efff00;text-shadow:none;}
         transform        : translate3d(85px, 0, 0)
     }
 }
+
+
+/*自定义css*/
+
+
+/*统计小模块*/
+.widget_Websitestat h3{font-weight:700;}.widgest-boys{overflow:hidden;}.widgest-boys .widgest-bg{margin: 1px; background-size: cover; background-repeat: no-repeat; background-position: center center; cursor: pointer; border-radius: 8px;}.widgest-boys .widgest-main{align-items: center; place-content: flex-start space-around; display: flex;}.widgest-boys .widgest-meat{display: block; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; color: rgb(255, 255, 255); font-weight: 700 !important; line-height: 1.5 !important;}.widgest-bg:not(article){transition: all 0.3s;}.widgest-bg:not(article):hover{transform: translateX(-10px);}
+/*图片路径设置*/
+.widgest-bg1{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://cdn.jsdelivr.net/gh/baomihuahua/boxmoeimg@dbbe97a5b327e18eb71c9111a6bf84c0c18063e8/2021/11/26/170b91490d829430673fd2da0b08569e.png);}
+.widgest-bg2{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://cdn.jsdelivr.net/gh/baomihuahua/boxmoeimg@03e5c4e895abb6a0ecb8c62fbdc43625abb6b095/2021/11/26/20b0cf7846b2bbdce95fd1031039c1f8.png);}
+.widgest-bg3{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://cdn.jsdelivr.net/gh/baomihuahua/boxmoeimg@5edc8beb589b32020dc1541db092cade2a209905/2021/11/26/b1b32c26194db93a574f566c10bdf323.png);}
+.widgest-bg4{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://cdn.jsdelivr.net/gh/baomihuahua/boxmoeimg@b132b43b755c3a82403479971a5c2ff41d7d279f/2021/11/26/41b72e9c241f0cede6bea0f65f034e52.png);}
+.widgest-bg5{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://cdn.jsdelivr.net/gh/baomihuahua/boxmoeimg@ae20a071f473d2b7a74a86708386309bd2c5e912/2021/11/26/83e1407da85d1dd175147260af84767b.png);}
+.widgest-bg6{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://cdn.jsdelivr.net/gh/baomihuahua/boxmoeimg@e998c95dea93399cb28b584fc14fbf669c9d61e7/2021/11/26/2902a4aa149dd28de9c2b5169bd7303c.png);}
+.widgest-bg7{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://cdn.jsdelivr.net/gh/baomihuahua/boxmoeimg@aeeb86b3766d77a1b313f730969a885e93702673/2021/11/26/faa1bb49dbb9ff0020f9f2997f69dffd.png);}
+.widgest-bg8{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://cdn.jsdelivr.net/gh/baomihuahua/boxmoeimg@a718480dbdbb87e0e6ee0362fbb41a78cd79148a/2021/11/26/d2fbc4ae8a3d1ee23e3cb368d3231035.png);}
+.widgest-bg9{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://cdn.jsdelivr.net/gh/baomihuahua/boxmoeimg@a4408ac12de9af8b4661e45f1bf68651f6b05fc7/2021/11/26/2f8cf8e46ac03f05a35fba3e21554456.png);}
+.widgest-bg10{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://cdn.jsdelivr.net/gh/baomihuahua/boxmoeimg@a66e38722dbf5137d447b3d125b9661a05e2bb86/2021/11/26/fb80edadbdfc9745d023ab4f6375fc13.png);}
+.widgest-bg11{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://cdn.jsdelivr.net/gh/baomihuahua/boxmoeimg@7afbbeace9750c470105bccb959d1bc502d31b88/2021/11/26/1931e8fafaf0d91df808e700058acfd2.png);}
+
+
+/*左边联系站长 css 开始*/
+.contact-help{position: fixed; z-index: 101; left: 0; top: calc(50% - 30px); margin-top: -36px; width: 28px; height: 72px; transition: all .3s; font-size: 12px;background: var(--main-bg-color);border-radius: 0 5px 5px 0; padding: 8px 7px; line-height: 14px;}@media screen and (max-width: 768px){.contact-help{display:none;}}
+/*左边联系站长 css 开始*/
+/* 时间表 */
+.aside-count .content {
+    padding: 15px
+}
+ 
+.aside-count .content .item {
+    margin-bottom: 15px
+}
+ 
+.aside-count .content .item:last-child {
+    margin-bottom: 0
+}
+ 
+.aside-count .content .item .title {
+    font-size: 12px;
+    color: var(--minor);
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center
+}
+ 
+.aside-count .content .item .title span {
+    color: var(--theme);
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 5px
+}
+ 
+.aside-count .content .item .progress {
+    display: flex;
+    align-items: center
+}
+ 
+.aside-count .content .item .progress .progress-bar {
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: var(--classC);
+    width: 0;
+    min-width: 0;
+    flex: 1;
+    margin-right: 5px
+}
+@keyframes progress {
+    0% {
+        background-position: 0 0
+    }
+ 
+    100% {
+        background-position: 30px 0
+    }
+}
+.aside-count .content .item .progress .progress-bar .progress-inner {
+    width: 0;
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.35s;
+    -webkit-animation: progress 750ms linear infinite;
+    animation: progress 750ms linear infinite
+}
+ 
+.aside-count .content .item .progress .progress-bar .progress-inner-1 {
+    background: #bde6ff;
+    background-image: linear-gradient(135deg, #50bfff 25%, transparent 25%, transparent 50%, #50bfff 50%, #50bfff 75%, transparent 75%, transparent 100%);
+    background-size: 30px 30px
+}
+ 
+.aside-count .content .item .progress .progress-bar .progress-inner-2 {
+    background: #ffd980;
+    background-image: linear-gradient(135deg, #f7ba2a 25%, transparent 25%, transparent 50%, #f7ba2a 50%, #f7ba2a 75%, transparent 75%, transparent 100%);
+    background-size: 30px 30px
+}
+ 
+.aside-count .content .item .progress .progress-bar .progress-inner-3 {
+    background: #ffa9a9;
+    background-image: linear-gradient(135deg, #ff4949 25%, transparent 25%, transparent 50%, #ff4949 50%, #ff4949 75%, transparent 75%, transparent 100%);
+    background-size: 30px 30px
+}
+ 
+.aside-count .content .item .progress .progress-bar .progress-inner-4 {
+    background: #67c23a;
+    background-image: linear-gradient(135deg, #4f9e28 25%, transparent 25%, transparent 50%, #4f9e28 50%, #4f9e28 75%, transparent 75%, transparent 100%);
+    background-size: 30px 30px
+}
+ 
+.aside-count .content .item .progress .progress-percentage {
+    color: var(--info)
+}
+/* 时间表结束 */
+/*字体开始*/
+
+
+@font-face {
+font-family: 'zhanku';
+src: url('https://cdn.jsdelivr.net/gh/Karensky/cdn@master/Sakura/fonts/zhanku/zhanku.eot');
+src:
+url('https://cdn.jsdelivr.net/gh/Karensky/cdn@master/Sakura/fonts/zhanku/zhanku.eot') format('embedded-opentype'),
+url('https://cdn.jsdelivr.net/gh/Karensky/cdn@master/Sakura/fonts/zhanku/zhanku.woff') format('woff'),
+url('https://cdn.jsdelivr.net/gh/Karensky/cdn@master/Sakura/fonts/zhanku/zhanku.ttf') format('truetype'),
+url('https://cdn.jsdelivr.net/gh/Karensky/cdn@master/Sakura/fonts/zhanku/zhanku.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+*:not([class*="icon"]):not(i) {
+font-family: "zhanku" !important;
+}
+
+
+/*字体结束*/
+
+/* logo 扫光开始 */
+.navbar-brand{position:relative;overflow:hidden;margin: 0px 0 0 0px;}.navbar-brand:before{content:""; position: absolute; left: -665px; top: -460px; width: 200px; height: 15px; background-color: rgba(255,255,255,.5); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); -webkit-animation: searchLights 6s ease-in 0s infinite; -o-animation: searchLights 6s ease-in 0s infinite; animation: searchLights 6s ease-in 0s infinite;}@-moz-keyframes searchLights{50%{left: -100px; top: 0;} 65%{left: 120px; top: 100px;}}@keyframes searchLights{40%{left: -100px; top: 0;} 60%{left: 120px; top: 100px;} 80%{left: -100px; top: 0px;}}
+/* logo 扫光结束 */
+/*进度条加载显示*/
+#percentageCounter {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 2px;
+    z-index: 99999;
+    background-image: linear-gradient(to right, #FFCCCC,#ffcdb3, #fdbadc,#a4f4ff, #CCCCFF);
+    border-radius: 0px 40px 40px 0px;
+    outline: 3px solid #fbf4ff;
+}
