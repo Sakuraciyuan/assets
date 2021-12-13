@@ -1,1 +1,87 @@
-鹅
+/*背景图*/
+#nuandao .siteCount {
+  position: relative;
+  padding: 500px 0;
+  background: url(https://www.cy6cy.cn/Sakura) center center / cover no-repeat
+    fixed;
+}
+
+#nuandao .siteCount .cover {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*内容*/
+#nuandao .siteCount .wrapper {
+  position: relative;
+  z-index: 10;
+
+  width: 1400px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#nuandao .siteCount ul {
+  display: flex;
+}
+
+#nuandao .siteCount ul li {
+  width: 20%;
+  color: #fff;
+  text-align: center;
+}
+
+/*模块*/
+#nuandao .siteCount ul li span {
+  font-size: 48px;
+  font-family: Arial;
+}
+
+#nuandao .siteCount ul li b {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/*按钮*/
+#nuandao .siteCount .join-vip {
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+}
+
+#nuandao .siteCount .join-vip a {
+  display: inline-block;
+  border: 0;
+  border-radius: 5px;
+  transition: all 0.3s;
+  padding: 10px 30px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  background-color: var(--primary-color);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#006eff),
+    to(#13adff)
+  );
+  background-image: -webkit-linear-gradient(left, #006eff, #13adff);
+  background-image: -o-linear-gradient(left, #006eff 0, #13adff 100%);
+  background-image: linear-gradient(90deg, #006eff, #13adff);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(16, 110, 253, 0.3);
+  box-shadow: 0 5px 10px 0 rgba(16, 110, 253, 0.3);
+  color: #fff;
+}
+
+#nuandao .siteCount .join-vip p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.5px;
+  font-family: Arial;
+}
